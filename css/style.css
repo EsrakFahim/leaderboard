@@ -7,11 +7,19 @@
         font-family: 'Poppins', sans-serif;
         background-color: #F3F1FF;
     }
-
-    #conteinar {
+    #conteinar{
         width: 870px;
         background-color: #ffffff;
-        padding: 33px;
+        padding: 0 33px 33px 33px;
+        box-shadow:
+            0 0 5px #b3b2b2,
+            0 0 25px #b3b2b2,
+            0 0 50px #b3b2b2,
+            0 0 100px #b3b2b2;
+    }
+    main {
+        display: flex;
+        justify-content: center;
     }
 
     /* ------header section start----- */
@@ -71,10 +79,7 @@
     /* ------header section end---------- */
 
     /* ------main section style start---- */
-    main {
-        display: flex;
-        justify-content: center;
-    }
+
 
     /* player section strat */
     .conteinar_title {
@@ -82,13 +87,14 @@
         font-weight: 500;
         color: #562EFF;
         margin: 0;
+        margin-bottom: 40px;
+        margin-top: 33px;
     }
 
     .player_details_conteinar {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 30px;
-        margin-top: 40px;
     }
 
     .players {
@@ -108,3 +114,36 @@
     }
 
     /* player section end  */
+
+    /* blog section start  */
+    .blog_section_conteinar{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+        column-gap: 80px;
+    }
+    .blog{
+        display: flex;
+    }
+    .blog img {
+        width: 177px;
+        height: 117px;
+    }
+    .blog_text_conteinar{
+        margin-left: 16px;
+    }
+    .blog_text_conteinar p{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+    }
+    .blog_text_conteinar h4{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    span{
+        color: #9F9F9F;
+    }
+    .author-name{
+        color: #562EFF;
+    }
