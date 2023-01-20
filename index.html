@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/59436b459e.js" crossorigin="anonymous"></script>
     <title>Leaderboard</title>
 </head>
 
@@ -63,6 +64,7 @@
                     <p class="player_name">Top-player-$</p>
                 </div>
             </div>
+            <hr>
             <!------------------- top player section end ------------------->
 
             <!------------------ blog section start ------------------->
@@ -95,7 +97,7 @@
                 <div class="blog">
                     <img src="./images/blogs/blog-4.png" alt="">
                     <div class="blog_text_conteinar">
-                        <p>Your logo is
+                        <p>Your logo is <br>
                             copied</p>
                         <h4><span>by</span> <span class="author-name"> Tess Gadd</span></h4>
                     </div>
@@ -103,6 +105,73 @@
             </div>
         </section>
     </main>
+
+    <!-- Lates Course section start -->
+    <!-- section#conteinar>.course_conteinar>.course_detail*3>img[src="./images/courses/course-$.png"]+.course_detail_content>h2+h4+.course_summary>ul>li*5^span.rating+span.duration -->
+    <section id="flex_contain">
+        <div id="conteinar">
+            <h3 class="conteinar_title">Lates Course</h3>
+            <div class="course_conteinar">
+                <div class="course_detail">
+                    <img src="./images/courses/course-1.png" alt="">
+                    <div class="course_detail_content">
+                        <h2>React - The Complete
+                            Guide 2020</h2>
+                        <h4>Reed Krakoff.</h4>
+                        <div class="course_summary">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <span class="rating">5.0</span>
+                            </ul>
+                            <span class="duration"><i class="fa-regular fa-clock"></i><span>01:20hr</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course_detail">
+                    <img src="./images/courses/course-2.png" alt="">
+                    <div class="course_detail_content">
+                        <h2>Powerpoint 2020 Master Powerpoint Cour</h2>
+                        <h4>Walter Scott</h4>
+                        <div class="course_summary">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                                <span class="rating">4.5</span>
+                            </ul>
+                            <span class="duration"><i class="fa-regular fa-clock"></i><span>01:20hr</span> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course_detail">
+                    <img src="./images/courses/course-3.png" alt="">
+                    <div class="course_detail_content">
+                        <h2>The Complete JavaScript
+                            Guide 2020 </h2>
+                        <h4>Reed Krakoff.</h4>
+                        <div class="course_summary">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                                <span class="rating">4.5</span>
+                            </ul>
+                            <span class="duration"><i class="fa-regular fa-clock"></i><span>01:20hr</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lates Course section end -->
 </body>
 
 </html>
